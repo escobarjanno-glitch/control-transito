@@ -592,18 +592,18 @@ h1,h2,h3,h4,p{
   box-shadow:0 0 0 4px rgba(22,131,199,.12);
 }
     #footerBtn{
- position:sticky;
- bottom:0;
- left:0;
- right:0;
- z-index:50;
- background:linear-gradient(to top, rgba(244,247,251,1) 78%, rgba(244,247,251,.92) 100%);
- backdrop-filter:blur(8px);
- padding:14px 0 10px;
- margin-top:20px;
- border-top:1px solid var(--border);
+  display:none;          /* ← AGREGAR ESTA LÍNEA */
+  position:sticky;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index:50;
+  background:linear-gradient(to top, rgba(244,247,251,1) 78%, rgba(244,247,251,.92) 100%);
+  backdrop-filter:blur(8px);
+  padding:14px 0 10px;
+  margin-top:20px;
+  border-top:1px solid var(--border);
 }
-
 #footerBtn button{
  width:100%;
  border:none;
